@@ -1,0 +1,167 @@
+{
+  "shifty": [
+    {
+      "case": "one flaky source",
+      "description": "A single source, right two calls in five.",
+      "accuracies": {
+        "flaky": 0.4
+      },
+      "results": {
+        "naive": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]",
+        "reflexive": "0.407 [0.331, 0.487]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "forward": "0.427 [0.350, 0.507]",
+        "smc": "1.000 [0.975, 1.000]"
+      }
+    },
+    {
+      "case": "two flaky sources",
+      "description": "Two equally unreliable sources; neither is the one to pick.",
+      "accuracies": {
+        "flaky_a": 0.4,
+        "flaky_b": 0.4
+      },
+      "results": {
+        "naive": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]",
+        "reflexive": "0.607 [0.527, 0.681]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "forward": "0.567 [0.487, 0.643]",
+        "smc": "1.000 [0.975, 1.000]"
+      }
+    },
+    {
+      "case": "flaky plus dependable",
+      "description": "One poor, one good, indistinguishable before evidence.",
+      "accuracies": {
+        "flaky": 0.3,
+        "dependable": 0.9
+      },
+      "results": {
+        "naive": "0.320 [0.251, 0.398]",
+        "engineered": "0.913 [0.857, 0.949]",
+        "reflexive": "0.913 [0.857, 0.949]",
+        "greedy": "0.320 [0.251, 0.398]",
+        "forward": "0.807 [0.736, 0.862]",
+        "smc": "1.000 [0.975, 1.000]"
+      }
+    },
+    {
+      "case": "mostly adversarial",
+      "description": "Three sources spanning near-useless to good.",
+      "accuracies": {
+        "adversarial": 0.1,
+        "flaky": 0.4,
+        "dependable": 0.85
+      },
+      "results": {
+        "naive": "0.120 [0.077, 0.182]",
+        "engineered": "0.820 [0.751, 0.873]",
+        "reflexive": "0.820 [0.751, 0.873]",
+        "greedy": "0.120 [0.077, 0.182]",
+        "forward": "0.627 [0.547, 0.700]",
+        "smc": "1.000 [0.975, 1.000]"
+      }
+    },
+    {
+      "case": "all unreliable",
+      "description": "No dependable source exists; only retrying finds the answer.",
+      "accuracies": {
+        "a": 0.35,
+        "b": 0.35,
+        "c": 0.35
+      },
+      "results": {
+        "naive": "0.353 [0.281, 0.433]",
+        "engineered": "0.567 [0.487, 0.643]",
+        "reflexive": "0.567 [0.487, 0.643]",
+        "greedy": "0.353 [0.281, 0.433]",
+        "forward": "0.507 [0.427, 0.586]",
+        "smc": "1.000 [0.975, 1.000]"
+      }
+    }
+  ],
+  "priors": [
+    {
+      "declared_prior_on_bad_tool": 0.1,
+      "true_accuracy": 0.25,
+      "smc": "1.000 [0.975, 1.000]"
+    },
+    {
+      "declared_prior_on_bad_tool": 0.3,
+      "true_accuracy": 0.25,
+      "smc": "1.000 [0.975, 1.000]"
+    },
+    {
+      "declared_prior_on_bad_tool": 0.5,
+      "true_accuracy": 0.25,
+      "smc": "1.000 [0.975, 1.000]"
+    },
+    {
+      "declared_prior_on_bad_tool": 0.7,
+      "true_accuracy": 0.25,
+      "smc": "0.960 [0.915, 0.982]"
+    },
+    {
+      "declared_prior_on_bad_tool": 0.9,
+      "true_accuracy": 0.25,
+      "smc": "0.847 [0.780, 0.896]"
+    },
+    {
+      "declared_prior_on_bad_tool": 0.99,
+      "true_accuracy": 0.25,
+      "smc": "0.380 [0.306, 0.460]"
+    }
+  ],
+  "budget": [
+    {
+      "max_steps": 2,
+      "results": {
+        "smc": "0.993 [0.963, 0.999]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    },
+    {
+      "max_steps": 3,
+      "results": {
+        "smc": "1.000 [0.975, 1.000]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    },
+    {
+      "max_steps": 4,
+      "results": {
+        "smc": "1.000 [0.975, 1.000]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    },
+    {
+      "max_steps": 5,
+      "results": {
+        "smc": "1.000 [0.975, 1.000]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    },
+    {
+      "max_steps": 6,
+      "results": {
+        "smc": "1.000 [0.975, 1.000]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    },
+    {
+      "max_steps": 8,
+      "results": {
+        "smc": "1.000 [0.975, 1.000]",
+        "greedy": "0.407 [0.331, 0.487]",
+        "engineered": "0.607 [0.527, 0.681]"
+      }
+    }
+  ]
+}

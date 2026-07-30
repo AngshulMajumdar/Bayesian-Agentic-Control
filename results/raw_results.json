@@ -1,0 +1,1024 @@
+{
+  "trials_sweep": 300,
+  "trials_grid": 150,
+  "sweep_chain": [
+    {
+      "source_accuracy": 0.05,
+      "LangChain (retry)": {
+        "rate": 0.05,
+        "ci_lower": 0.0305,
+        "ci_upper": 0.0808,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.05,
+        "ci_lower": 0.0305,
+        "ci_upper": 0.0808,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 0.4633,
+        "ci_lower": 0.4077,
+        "ci_upper": 0.5199,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.1,
+      "LangChain (retry)": {
+        "rate": 0.12,
+        "ci_lower": 0.088,
+        "ci_upper": 0.1617,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.12,
+        "ci_lower": 0.088,
+        "ci_upper": 0.1617,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 0.8967,
+        "ci_lower": 0.8571,
+        "ci_upper": 0.9262,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.2,
+      "LangChain (retry)": {
+        "rate": 0.2067,
+        "ci_lower": 0.1647,
+        "ci_upper": 0.2561,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.2067,
+        "ci_lower": 0.1647,
+        "ci_upper": 0.2561,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 0.9867,
+        "ci_lower": 0.9662,
+        "ci_upper": 0.9948,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.3,
+      "LangChain (retry)": {
+        "rate": 0.29,
+        "ci_lower": 0.2416,
+        "ci_upper": 0.3437,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.29,
+        "ci_lower": 0.2416,
+        "ci_upper": 0.3437,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 0.9967,
+        "ci_lower": 0.9814,
+        "ci_upper": 0.9994,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.4,
+      "LangChain (retry)": {
+        "rate": 0.41,
+        "ci_lower": 0.3558,
+        "ci_upper": 0.4665,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.41,
+        "ci_lower": 0.3558,
+        "ci_upper": 0.4665,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.5,
+      "LangChain (retry)": {
+        "rate": 0.5233,
+        "ci_lower": 0.4669,
+        "ci_upper": 0.5792,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.5233,
+        "ci_lower": 0.4669,
+        "ci_upper": 0.5792,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.6,
+      "LangChain (retry)": {
+        "rate": 0.6467,
+        "ci_lower": 0.591,
+        "ci_upper": 0.6986,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.6467,
+        "ci_lower": 0.591,
+        "ci_upper": 0.6986,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.7,
+      "LangChain (retry)": {
+        "rate": 0.72,
+        "ci_lower": 0.6667,
+        "ci_upper": 0.7678,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.72,
+        "ci_lower": 0.6667,
+        "ci_upper": 0.7678,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.8,
+      "LangChain (retry)": {
+        "rate": 0.8167,
+        "ci_lower": 0.769,
+        "ci_upper": 0.8564,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.8167,
+        "ci_lower": 0.769,
+        "ci_upper": 0.8564,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.9,
+      "LangChain (retry)": {
+        "rate": 0.8833,
+        "ci_lower": 0.8421,
+        "ci_upper": 0.9149,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.8833,
+        "ci_lower": 0.8421,
+        "ci_upper": 0.9149,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.95,
+      "LangChain (retry)": {
+        "rate": 0.95,
+        "ci_lower": 0.9192,
+        "ci_upper": 0.9695,
+        "trials": 300
+      },
+      "LangChain (reflexive)": {
+        "rate": 0.95,
+        "ci_lower": 0.9192,
+        "ci_upper": 0.9695,
+        "trials": 300
+      },
+      "BayesianRAG-Chain (SMC)": {
+        "rate": 0.9833,
+        "ci_lower": 0.9616,
+        "ci_upper": 0.9929,
+        "trials": 300
+      }
+    }
+  ],
+  "sweep_graph": [
+    {
+      "source_accuracy": 0.05,
+      "LangGraph (naive)": {
+        "rate": 0.05,
+        "ci_lower": 0.0305,
+        "ci_upper": 0.0808,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9133,
+        "ci_lower": 0.876,
+        "ci_upper": 0.9402,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.1,
+      "LangGraph (naive)": {
+        "rate": 0.12,
+        "ci_lower": 0.088,
+        "ci_upper": 0.1617,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9233,
+        "ci_lower": 0.8876,
+        "ci_upper": 0.9484,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.2,
+      "LangGraph (naive)": {
+        "rate": 0.2067,
+        "ci_lower": 0.1647,
+        "ci_upper": 0.2561,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9233,
+        "ci_lower": 0.8876,
+        "ci_upper": 0.9484,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.3,
+      "LangGraph (naive)": {
+        "rate": 0.29,
+        "ci_lower": 0.2416,
+        "ci_upper": 0.3437,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9367,
+        "ci_lower": 0.9032,
+        "ci_upper": 0.9591,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.4,
+      "LangGraph (naive)": {
+        "rate": 0.41,
+        "ci_lower": 0.3558,
+        "ci_upper": 0.4665,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9567,
+        "ci_lower": 0.9273,
+        "ci_upper": 0.9745,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.5,
+      "LangGraph (naive)": {
+        "rate": 0.5233,
+        "ci_lower": 0.4669,
+        "ci_upper": 0.5792,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.96,
+        "ci_lower": 0.9314,
+        "ci_upper": 0.977,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.6,
+      "LangGraph (naive)": {
+        "rate": 0.6467,
+        "ci_lower": 0.591,
+        "ci_upper": 0.6986,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.96,
+        "ci_lower": 0.9314,
+        "ci_upper": 0.977,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.7,
+      "LangGraph (naive)": {
+        "rate": 0.72,
+        "ci_lower": 0.6667,
+        "ci_upper": 0.7678,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.97,
+        "ci_lower": 0.944,
+        "ci_upper": 0.9841,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 0.9967,
+        "ci_lower": 0.9814,
+        "ci_upper": 0.9994,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.8,
+      "LangGraph (naive)": {
+        "rate": 0.8167,
+        "ci_lower": 0.769,
+        "ci_upper": 0.8564,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9833,
+        "ci_lower": 0.9616,
+        "ci_upper": 0.9929,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.9,
+      "LangGraph (naive)": {
+        "rate": 0.8833,
+        "ci_lower": 0.8421,
+        "ci_upper": 0.9149,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9867,
+        "ci_lower": 0.9662,
+        "ci_upper": 0.9948,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 1.0,
+        "ci_lower": 0.9874,
+        "ci_upper": 1.0,
+        "trials": 300
+      }
+    },
+    {
+      "source_accuracy": 0.95,
+      "LangGraph (naive)": {
+        "rate": 0.95,
+        "ci_lower": 0.9192,
+        "ci_upper": 0.9695,
+        "trials": 300
+      },
+      "LangGraph (engineered)": {
+        "rate": 0.9967,
+        "ci_lower": 0.9814,
+        "ci_upper": 0.9994,
+        "trials": 300
+      },
+      "BayesianRAG-Graph (SMC)": {
+        "rate": 0.9867,
+        "ci_lower": 0.9662,
+        "ci_upper": 0.9948,
+        "trials": 300
+      }
+    }
+  ],
+  "ablation_chain": [
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.7079,
+      "accuracy": {
+        "rate": 0.9133,
+        "ci_lower": 0.8574,
+        "ci_upper": 0.9487,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.7001,
+      "accuracy": {
+        "rate": 0.92,
+        "ci_lower": 0.8654,
+        "ci_upper": 0.9536,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.6641,
+      "accuracy": {
+        "rate": 0.92,
+        "ci_lower": 0.8654,
+        "ci_upper": 0.9536,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.6611,
+      "accuracy": {
+        "rate": 0.6133,
+        "ci_lower": 0.5335,
+        "ci_upper": 0.6875,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.6809,
+      "accuracy": {
+        "rate": 0.6133,
+        "ci_lower": 0.5335,
+        "ci_upper": 0.6875,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.7912,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.882,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.8515,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.7858,
+      "accuracy": {
+        "rate": 0.9333,
+        "ci_lower": 0.8816,
+        "ci_upper": 0.9634,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.733,
+      "accuracy": {
+        "rate": 0.9467,
+        "ci_lower": 0.8983,
+        "ci_upper": 0.9727,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9674,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9704,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9445,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.9079,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.8521,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9932,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9903,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9828,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.9662,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.9379,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9982,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9985,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9963,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.9912,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.9836,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    }
+  ],
+  "ablation_graph": [
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9818,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9625,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9102,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.8401,
+      "accuracy": {
+        "rate": 0.9867,
+        "ci_lower": 0.9527,
+        "ci_upper": 0.9963,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.1,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.7563,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9867,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9732,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9429,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.8985,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.3,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.8512,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9894,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9815,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9645,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.935,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.5,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.9177,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9904,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9862,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9766,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.9632,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.7,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.9527,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.1,
+      "mean_consensus": 0.9919,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.3,
+      "mean_consensus": 0.9903,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.5,
+      "mean_consensus": 0.9847,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.7,
+      "mean_consensus": 0.9786,
+      "accuracy": {
+        "rate": 0.9933,
+        "ci_lower": 0.9632,
+        "ci_upper": 0.9988,
+        "trials": 150
+      }
+    },
+    {
+      "true_accuracy": 0.9,
+      "declared_prior": 0.9,
+      "mean_consensus": 0.9758,
+      "accuracy": {
+        "rate": 1.0,
+        "ci_lower": 0.975,
+        "ci_upper": 1.0,
+        "trials": 150
+      }
+    }
+  ]
+}
