@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: >-
+  BayesianRAG: Bayesian Orchestration of Tool-Augmented Agents
+message: >-
+  If you use this software or reference its results, please cite it
+  using the metadata below.
+type: software
+authors:
+  - given-names: Angshul
+    family-names: Majumdar
+    email: angshul@iiitd.ac.in
+    affiliation: >-
+      Department of Electronics and Communication Engineering,
+      Indraprastha Institute of Information Technology Delhi
+    # orcid: 'https://orcid.org/XXXX-XXXX-XXXX-XXXX'  # add your ORCID before release
+repository-code: 'https://github.com/AngshulMajumdar/BayesianRAG'
+abstract: >-
+  Tool-augmented language model agents select actions greedily and recover
+  from failure by retrying; both follow from maintaining a single execution
+  trajectory, so evidence arriving later has no surviving branch to promote.
+  BayesianRAG formulates agent execution as sequential inference over action
+  trajectories, exposing deterministic greedy selection, probabilistic forward
+  sampling, and Bayesian sequential Monte Carlo as inference strategies over
+  one generative model. Particles carry per-trajectory Beta-Bernoulli beliefs
+  over tool reliability with retroactive credit assignment, answer selection
+  is ordered by validation status rather than recency, and posterior mass is
+  marginalised over answers to yield a calibrated criterion for requesting
+  clarification. On stochastically unreliable tools the method converts a
+  source correct one call in ten into a system correct nine times in ten.
+keywords:
+  - bayesian-inference
+  - sequential-monte-carlo
+  - particle-filter
+  - llm-agents
+  - tool-use
+  - retrieval-augmented-generation
+  - rag
+  - agent-orchestration
+license: MIT
+version: 1.7.0
+date-released: '2026-07-29'
